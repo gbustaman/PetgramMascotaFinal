@@ -26,26 +26,32 @@ public class MascotasFavoritas extends AppCompatActivity {
         Toolbar toolPersonalizado = (Toolbar) findViewById(R.id.abFavotito);
         setSupportActionBar(toolPersonalizado);
 
+        int size = getResources().getTextArray(R.array.pmascotas).length;
+        lstmascotas = new ArrayList<Mascota>();
+        for (int i=0; i<size; i++){
+            //obtengo el objeto serializado
+            lstmascotas.add((Mascota) getIntent().getSerializableExtra(getResources().getTextArray(R.array.pmascotas)[i].toString()));
+        }
 
 
         listadoMascotas = (RecyclerView) findViewById( R.id.rvMascota );
         LinearLayoutManager llm = new LinearLayoutManager( this );
         llm.setOrientation(LinearLayoutManager.VERTICAL);
         listadoMascotas.setLayoutManager( llm );
-        inicializarListaMascotas();
+        //inicializarListaMascotas();
         inicializarAdaptador();
         agregarFAB();
     }
 
     // DataSet: Cargamos los datos que queremos mostrar
-    public  void  inicializarListaMascotas(){
+    /*public  void  inicializarListaMascotas(){
         lstmascotas = new ArrayList<>();
-        lstmascotas.add(new Mascota(R.drawable.mascota_19_5,"Valvula","13"));
-        lstmascotas.add(new Mascota(R.drawable.mascota_19_6,"Gordo","52"));
-        lstmascotas.add(new Mascota(R.drawable.mascota_19_8,"Campeón","15"));
-        lstmascotas.add(new Mascota(R.drawable.mascota_19_11,"Lasi","10"));
-        lstmascotas.add(new Mascota(R.drawable.mascota_19_13,"Thimboy","98"));
-    }
+        lstmascotas.add(new Mascota("Valvula", R.drawable.mascota_19_5, 0));
+        lstmascotas.add(new Mascota("Gordo", R.drawable.mascota_19_6,0));
+        lstmascotas.add(new Mascota("Campeón", R.drawable.mascota_19_8,0));
+        lstmascotas.add(new Mascota("Lasi", R.drawable.mascota_19_11, 0));
+        lstmascotas.add(new Mascota("Thimboy", R.drawable.mascota_19_13,0));
+    }*/
 
     public void inicializarAdaptador(){
         AdapterMascota adaptador = new AdapterMascota(lstmascotas,this);

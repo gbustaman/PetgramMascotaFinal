@@ -24,5 +24,14 @@
     <string name="like">Diste like a </string>
 
     <string name="name_default">Valvula</string>
+    <string name="text_size_default">2</string>
+
+    <array name="pmascotas">
+        <item>pmascota1</item>
+        <item>pmascota2</item>
+        <item>pmascota3</item>
+        <item>pmascota4</item>
+        <item>pmascota5</item>
+    </array>
 
 </resources>

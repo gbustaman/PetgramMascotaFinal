@@ -12,8 +12,8 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.gecode.petgrammascotas.adapter.PageAdapter;
-import com.gecode.petgrammascotas.fragment.FragmentPerfil;
-import com.gecode.petgrammascotas.fragment.RecycleViewFragment;
+import com.gecode.petgrammascotas.vista.fragment.FragmentPerfil;
+import com.gecode.petgrammascotas.vista.fragment.RecycleViewFragment;
 import com.gecode.petgrammascotas.menu.About;
 import com.gecode.petgrammascotas.menu.Contacto;
 
@@ -31,10 +31,8 @@ public class ListaMascotas extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_mascotas);
-        // creamos nuestro Toolbat personalizado.
+        //================== Creamos nuestro Toolbar personalizado. =====================//
         toolbar = (Toolbar)  findViewById(R.id.miToolBar);
-        //setSupportActionBar(toolbar);
-
         tabLayout = (TabLayout)  findViewById(R.id.tabLayout);
         viewPager = (ViewPager)  findViewById(R.id.viewPager);
 
@@ -59,10 +57,10 @@ public class ListaMascotas extends AppCompatActivity {
     }
 
     // ActionView Estrella: nos lleva a una nueva actividad (MascotasFavoritas)
-    public  void  irSegundaActividad (View v) {
+   /* public  void  irSegundaActividad (View v) {
         Intent intent = new Intent(this,MascotasFavoritas.class);
         startActivity(intent);
-    }
+    }*/
 
 
 

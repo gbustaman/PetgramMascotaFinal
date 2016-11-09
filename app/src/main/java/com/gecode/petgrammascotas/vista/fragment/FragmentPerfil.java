@@ -1,4 +1,4 @@
-package com.gecode.petgrammascotas.fragment;
+package com.gecode.petgrammascotas.vista.fragment;
 
 
 import android.os.Bundle;

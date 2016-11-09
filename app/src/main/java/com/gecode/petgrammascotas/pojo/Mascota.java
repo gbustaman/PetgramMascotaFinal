@@ -1,18 +1,32 @@
 package com.gecode.petgrammascotas.pojo;
 
+import java.io.Serializable;
+
 /**
  * Created by gregorybr on 28-10-16.
  */
 
-public class Mascota {
+public class Mascota implements Serializable{
+    // Instanciamos las variables:
+    private int id;
     private String nombreMascota;
     private int foto;
-    private String raiting;
+    private int likes;
 
-    public Mascota(int foto, String nombreMascota, String raiting ) {
+
+     public Mascota( int foto, String nombreMascota,int likes) {
         this.nombreMascota = nombreMascota;
         this.foto = foto;
-        this.raiting = raiting;
+        this.likes = likes;
+    }
+
+    public Mascota( int foto, String nombreMascota) {
+        this.nombreMascota = nombreMascota;
+        this.foto = foto;
+        this.likes = 0;
+    }
+
+    public Mascota() {
     }
 
     public String getNombreMascota() {
@@ -31,11 +45,19 @@ public class Mascota {
         this.foto = foto;
     }
 
-    public String getRaiting() {
-        return raiting;
+      public int getId() {
+        return id;
     }
 
-    public void setRaiting(String raiting) {
-        this.raiting = raiting;
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getLikes() {
+        return likes;
+    }
+
+    public void setLikes(int likes) {
+        this.likes = likes;
     }
 }
