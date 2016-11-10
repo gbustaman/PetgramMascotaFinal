@@ -1,4 +1,4 @@
-package com.gecode.petgrammascotas.pojo;
+package com.gecode.petgrammascotas.modelo;
 
 import java.io.Serializable;
 

@@ -1,10 +1,10 @@
-package com.gecode.petgrammascotas.db;
+package com.gecode.petgrammascotas.modelo.db;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.gecode.petgrammascotas.pojo.Mascota;
+import com.gecode.petgrammascotas.modelo.Mascota;
 
 import java.util.ArrayList;
 

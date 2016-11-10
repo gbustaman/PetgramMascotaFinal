@@ -1,4 +1,4 @@
-package com.gecode.petgrammascotas.db;
+package com.gecode.petgrammascotas.modelo.db;
 
 /**
  * Created by gregorybr on 07-11-16.

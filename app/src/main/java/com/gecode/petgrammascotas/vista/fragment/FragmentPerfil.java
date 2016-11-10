@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 
 import com.gecode.petgrammascotas.R;
 import com.gecode.petgrammascotas.adapter.AdapterPerfilMascota;
-import com.gecode.petgrammascotas.pojo.PerfilMascota;
+import com.gecode.petgrammascotas.modelo.PerfilMascota;
 
 import java.util.ArrayList;
 

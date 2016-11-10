@@ -8,8 +8,8 @@ import android.widget.ImageView;
 
 import com.gecode.petgrammascotas.MascotasFavoritas;
 import com.gecode.petgrammascotas.R;
-import com.gecode.petgrammascotas.db.ConstructorMascotas;
-import com.gecode.petgrammascotas.pojo.Mascota;
+import com.gecode.petgrammascotas.modelo.db.ConstructorMascotas;
+import com.gecode.petgrammascotas.modelo.Mascota;
 import com.gecode.petgrammascotas.vista.fragment.IReycleViewFragmentView;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.gecode.petgrammascotas.pojo;
+package com.gecode.petgrammascotas.modelo;
 
 /**
  * Created by gregorybr on 30-10-16.

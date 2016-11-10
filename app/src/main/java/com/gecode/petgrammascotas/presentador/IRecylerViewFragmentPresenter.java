@@ -1,6 +1,6 @@
 package com.gecode.petgrammascotas.presentador;
 
-import com.gecode.petgrammascotas.pojo.Mascota;
+import com.gecode.petgrammascotas.modelo.Mascota;
 
 import java.util.ArrayList;
 

@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.gecode.petgrammascotas.R;
-import com.gecode.petgrammascotas.pojo.PerfilMascota;
+import com.gecode.petgrammascotas.modelo.PerfilMascota;
 
 import java.util.ArrayList;
 

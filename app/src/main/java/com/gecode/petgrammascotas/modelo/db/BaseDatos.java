@@ -1,4 +1,4 @@
-package com.gecode.petgrammascotas.db;
+package com.gecode.petgrammascotas.modelo.db;
 
 import android.content.ContentValues;
 import android.content.Context;

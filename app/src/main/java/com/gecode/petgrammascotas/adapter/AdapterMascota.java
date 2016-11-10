@@ -12,8 +12,8 @@ import android.widget.TextView;
 
 import com.gecode.petgrammascotas.ListaMascotas;
 import com.gecode.petgrammascotas.R;
-import com.gecode.petgrammascotas.db.ConstructorMascotas;
-import com.gecode.petgrammascotas.pojo.Mascota;
+import com.gecode.petgrammascotas.modelo.db.ConstructorMascotas;
+import com.gecode.petgrammascotas.modelo.Mascota;
 
 import java.util.ArrayList;
 

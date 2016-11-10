@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 
 import com.gecode.petgrammascotas.R;
 import com.gecode.petgrammascotas.adapter.AdapterMascota;
-import com.gecode.petgrammascotas.pojo.Mascota;
+import com.gecode.petgrammascotas.modelo.Mascota;
 import com.gecode.petgrammascotas.presentador.IRecylerViewFragmentPresenter;
 import com.gecode.petgrammascotas.presentador.RecylerViewFragmentPresenter;
 
